@@ -804,7 +804,13 @@
                     </ul>
                     <ul class="navbar-nav d-lg-block d-none" id="ul">
                         <li class="nav-item" id="li">
-                            <a href="javascript:;" class="btn btn-sm  bg-gradient-primary  mb-0" id="btn-ini" onclick="smoothToPricing('pricing-soft-ui')">Inicia ahora!</a>
+                            <button v-if="!connected" @click="connect" class="btn btn-sm  bg-gradient-primary  mb-0">
+                                Conectar Wallet
+                            </button>
+                            <button v-if="connected" @click="callContract" class="btn btn-sm  bg-gradient-primary  mb-0">
+                                Call contract   
+                            </button>
+                            {{ contractResult }}
                         </li>
                     </ul>
                     </div>
@@ -817,8 +823,47 @@
 </template>
 
 <script>
+import Web3 from 'web3'
 export default {
-    name:'Header-component'
+    name:'Header-component',
+
+    data() {
+    return {
+      connected: false,
+      contractResult: '',
+    }
+  },
+
+  methods: {
+
+    connect: function () {
+        // this connects to the wallet
+      
+      if (window.ethereum) { // first we check if metamask is installed
+        window.ethereum.request({ method: 'eth_requestAccounts' })
+          .then(() => {
+            this.connected = true; // If users successfully connected their wallet
+          });
+      }
+    },
+
+    callContract: function () {
+    // method for calling the contract method
+    let web3 = new Web3(window.ethereum);
+    let contractAddress = '0xe8Da1667713e8AfA55aB6F3E9BF4c66BdE338060';
+
+    
+
+    let abi = JSON.parse(`[{"constant": true,"inputs": [],"name": "age","outputs": [{"internalType": "uint256","name": "","type": "uint256"}],"payable": false,"stateMutability": "view","type": "function"},{"constant": false,"inputs": [{"internalType": "string","name": "_sistemaRiego","type": "string"},{"internalType": "uint256","name": "_cantidad","type": "uint256"},{"internalType": "string","name": "_sector","type": "string"}],"name": "crearRegistroAgua","outputs": [],"payable": false,"stateMutability": "nonpayable","type": "function"},{"constant": false,"inputs": [{"internalType": "uint256","name": "_litrosDia","type": "uint256"},{"internalType": "int256","name": "_tempDia","type": "int256"},{"internalType": "string","name": "_sector","type": "string"}],"name": "crearRegistroEvaporacion","outputs": [],"payable": false,"stateMutability": "nonpayable","type": "function"},{"constant": false,"inputs": [{"internalType": "int256","name": "_cationes","type": "int256"},{"internalType": "int256","name": "_aniones","type": "int256"},{"internalType": "string","name": "_sector","type": "string"}],"name": "crearRegistroNutrientes","outputs": [],"payable": false,"stateMutability": "nonpayable","type": "function"},{"constant": false,"inputs": [{"internalType": "uint256","name": "_cantidadLluvia","type": "uint256"},{"internalType": "string","name": "_fecha","type": "string"},{"internalType": "string","name": "_sector","type": "string"}],"name": "crearRegistroPresipitacion","outputs": [],"payable": false,"stateMutability": "nonpayable","type": "function"},{"constant": true,"inputs": [],"name": "getExample","outputs": [{"internalType": "uint256","name": "","type": "uint256"}],"payable": false,"stateMutability": "view","type": "function"},{"constant": true,"inputs": [],"name": "name","outputs": [{"internalType": "string","name": "","type": "string"}],"payable": false,"stateMutability": "view","type": "function"}]`);
+
+
+    let contract = new web3.eth.Contract(abi, contractAddress);
+
+    contract.methods.getExample().call()
+        .then(result => this.contractResult = result);
+    }
+
+  }
 }
 </script>
 
