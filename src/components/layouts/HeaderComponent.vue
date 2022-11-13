@@ -20,14 +20,6 @@
                     </button>
                     <div class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0" id="navigation">
                     <ul class="navbar-nav navbar-nav-hover ms-auto">
-                        <li class="nav-item dropdown dropdown-hover mx-2">
-                        <a role="button" href="/login" class="nav-link ps-2 d-flex cursor-pointer align-items-center fw-bold" id="dropdownMenuPages">
-                           
-                            Click me!
-                           
-                        </a>
-                        
-                        </li>
                        
                     </ul>
                     <ul class="navbar-nav d-lg-block d-none" id="ul">
