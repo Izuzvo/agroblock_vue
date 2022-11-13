@@ -804,7 +804,7 @@
                     </ul>
                     <ul class="navbar-nav d-lg-block d-none" id="ul">
                         <li class="nav-item" id="li">
-                            <a href="javascript:;" class="btn btn-sm  bg-gradient-primary  mb-0" id="btn-ini" onclick="smoothToPricing('pricing-soft-ui')">Inicia ahora!</a>
+                            <a href="/inicia" class="btn btn-sm  bg-gradient-primary  mb-0" id="btn-ini" onclick="smoothToPricing('pricing-soft-ui')">Inicia ahora!</a>
                         </li>
                     </ul>
                     </div>
