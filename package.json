@@ -13,13 +13,8 @@
     "route": "^0.2.5",
     "router": "^1.3.7",
     "vue": "^3.2.13",
-<<<<<<< HEAD
-    "vue-metamask": "^2.2.1",
-    "vue-router": "^4.1.6"
-=======
     "vue-router": "^4.1.6",
     "web3": "^1.8.1"
->>>>>>> c002228ebd3a3ff635f083fcd5ec0c0628e2dde5
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
