@@ -808,6 +808,15 @@
                         </li>
                     </ul>
                     </div>
+                    <!-- Mesta mask -->
+                        <div id="demo">
+
+                            // close init connect
+                            <vue-metamask ref="metamask" :initConnect="false"></vue-metamask>
+                            
+                            // click button call Init
+                            <button @click="connect">connect</button>
+                        </div>
                 </div>
                 </nav>
                 <!-- End Navbar -->
@@ -818,10 +827,27 @@
 
 <script>
 export default {
-    name:'Header-component'
+    import VueMetamask from 'vue-metamask';
+    name:'Header-component',
+  
+        components: {
+            VueMetamask,
+        },
+        data(){
+            return {
+                msg: "This is demo net work"
+            }
+        },
+        methods:{
+            onComplete(data){
+                console.log('data:', data);
+            }
+        }
+    
 }
 </script>
 
+</script>
 <style>
 
 </style>
