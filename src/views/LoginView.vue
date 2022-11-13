@@ -51,7 +51,7 @@
                 <div class="form-check text-start ps-0">
                   <input class="form-check-input bg-dark border-dark" type="checkbox" value="" id="flexCheckDefault" checked>
                   <label class="form-check-label" for="flexCheckDefault">
-                    I agree the <a href="javascript:;" class="text-dark font-weight-bolder">Acepto terminos y condiciones</a>
+                    <a href="javascript:;" class="text-dark font-weight-bolder">Acepto terminos y condiciones</a>
                   </label>
                 </div>
                 <div class="text-center">
