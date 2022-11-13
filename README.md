@@ -2,7 +2,7 @@
 
 [Project Description (Video)](https://drive.google.com/file/d/1HxMR_O_N8mViQU_9VNYp2L806n-njp6C/view?usp=share_link 'Video')
 
-![Alt text](https://drive.google.com/file/d/1HxsjXhMLttE_flcc4FgDmxdMN9aerimd/view?usp=share_link "a title")
+[Infografia](https://drive.google.com/file/d/1HxsjXhMLttE_flcc4FgDmxdMN9aerimd/view?usp=share_link)
 
 ## Project setup
 ```
