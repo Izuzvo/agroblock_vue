@@ -5,7 +5,6 @@
                 <nav class="navbar navbar-expand-lg  blur border-radius-xl top-0 z-index-fixed shadow position-absolute my-3 py-2 start-0 end-0 mx-4" id="nav-3">
                 <div class="container-fluid px-0" id="body">
                     <a class="navbar-brand font-weight-bolder ms-sm-3  d-none d-md-block" href="/" rel="tooltip" title="Designed and Coded by Creative Tim" data-placement="bottom">
-                    <a class="navbar-brand font-weight-bolder ms-sm-3  d-none d-md-block" href=" # " rel="tooltip" title="Designed and Coded by Creative Tim" data-placement="bottom" target="_blank">
                     AgroBlock
                     </a>
                     <a class="navbar-brand font-weight-bolder ms-sm-3  d-block d-md-none" href="/" rel="tooltip" title="Designed and Coded by Creative Tim" data-placement="bottom">
