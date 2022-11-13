@@ -1,26 +1,39 @@
 <template>
-    <div class="card card-body shadow-xl mx-3 mx-md-4 mt-n6 mb-4">
+     <section class="position-relative">
+    <div class="page-header min-vh-50" style="background-image: url('/img/wall_2.jpg');" loading="lazy">
+      <span class="mask bg-gradient-info"></span>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 text-center mx-auto">
+            <h2 class="text-white mb-3">Centraliza tus datos</h2>
+            <p class="lead text-white mb-6">con la mejor confidencialidad de la tecnologia de Blockchain</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="card card-body shadow-xl mx-3 mx-md-4 mt-n6 mb-4">
     <div class="container">
       <div class="row mt-sm-0 mt-5">
         <div class="col-lg-3 col-md-4 position-relative ms-lg-auto">
           <div class="p-3 text-center border-right-after">
             <i class="material-icons text-gradient text-info text-5xl mb-3">email</i>
             <h6 class="mb-0">Email</h6>
-            <p class="text-dark font-weight-normal">hello@creative-tim.com</p>
+            <p class="text-dark font-weight-normal">devero@code.com</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 position-relative">
           <div class="p-3 text-center border-right-after">
             <i class="material-icons text-gradient text-info text-5xl mb-3">call</i>
-            <h6 class="mb-0">Phone</h6>
-            <p class="text-dark font-weight-normal">+1(424) 535 3523</p>
+            <h6 class="mb-0">Celular</h6>
+            <p class="text-dark font-weight-normal">+52(636) 101 4815</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 me-lg-auto">
           <div class="p-3 text-center">
             <i class="material-icons text-gradient text-info text-5xl mb-3">contacts</i>
-            <h6 class="mb-0">Contact</h6>
-            <p class="text-dark font-weight-normal">Andrew Samian</p>
+            <h6 class="mb-0">Contacto</h6>
+            <p class="text-dark font-weight-normal">Nogales S.A</p>
           </div>
         </div>
       </div>
@@ -46,14 +59,14 @@
                     <div class="col-md-6">
                       <div class="input-group input-group-static mb-4">
                         <label>Ingresa el tiempo</label>
-                        <input type="text" class="form-control" placeholder="Tiempo">
+                        <input type="text" class="form-control" placeholder="Litro x Hectareas">
                         <span class="input-group-text"><i class="material-icons">browse_gallery</i></span>
                       </div>
                     </div>
                     <div class="col-md-6 ps-md-2">
                       <div class="input-group input-group-static mb-4">
                         <label>Sector</label>
-                        <input type="text" class="form-control" placeholder="ingresa al sector que perteneces">
+                        <input type="text" class="form-control" placeholder="No. de sector">
                         <span class="input-group-text"><i class="material-icons">compost</i></span>
                       </div>
                     </div>

@@ -8,7 +8,7 @@
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center mx-auto my-auto">
             <h1 class="text-white">Digitaliza tus cosechas</h1>
-            <p class="lead mb-4 text-white opacity-8">Somo una DaApp que te permitira llevar un control en la informacion de calidad, seguridad, y mejora del proceso de tu sembradio</p>
+            <p class="lead mb-4 text-white opacity-8">Somos una DaApp que te permitira llevar un control en la informacion de calidad, seguridad, y mejora del proceso de tu sembradio</p>
             <button type="submit" class="btn bg-white text-dark">Contactanos!</button>
           </div>
         </div>
@@ -46,7 +46,7 @@
                   </filter>
                 </defs>
               </svg>
-              <p class="mt-4 mb-0 font-weight-bold">Tiempo</p>
+              <p class="mt-4 mb-0 font-weight-bold">Consumo de agua</p>
               <span class="text-xs">Ultima actualizacion: 2 dias</span>
             </a>
           </div>
