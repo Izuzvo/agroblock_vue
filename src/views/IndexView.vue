@@ -63,12 +63,12 @@
               <div class="colored-shadow">CORREGIR!</div></div>
               <div class="card-body text-center">
                 <h5 class="font-weight-normal">
-                  <a href="javascript:;">Get insights on Search</a>
+                  <a href="javascript:;">Tecnologia para la gestion agricola</a>
                 </h5>
                 <p class="mb-0">
-                  Website visitors today demand a frictionless user expericence — especially when using search. Because of the hight standards.
+                  Control, seguridad y proyeccion — Tecnologia bloackchain.
                 </p>
-                <button type="button" class="btn bg-gradient-info btn-sm mb-0 mt-3">Find out more</button>
+                <button type="button" class="btn bg-gradient-info btn-sm mb-0 mt-3">Conoce mas!</button>
               </div>
             </div>
           </div>
@@ -175,29 +175,14 @@
     <section class="pt-4 pb-6" id="count-stats">
       <div class="container">
         <div class="row mb-7">
-          <div class="col-lg-2 col-md-4 col-6 mb-4">
-            <img class="w-100 opacity-7" src="/img/logos/gray-logos/logo-coinbase.svg" alt="logo">
-          </div>
-          <div class="col-lg-2 col-md-4 col-6 mb-4">
-            <img class="w-100 opacity-7" src="/img/logos/gray-logos/logo-nasa.svg" alt="logo">
-          </div>
-          <div class="col-lg-2 col-md-4 col-6 mb-4">
-            <img class="w-100 opacity-7" src="/img/logos/gray-logos/logo-netflix.svg" alt="logo">
-          </div>
-          <div class="col-lg-2 col-md-4 col-6 mb-4">
-            <img class="w-100 opacity-7" src="/img/logos/gray-logos/logo-pinterest.svg" alt="logo">
-          </div>
-          <div class="col-lg-2 col-md-4 col-6 mb-4">
-            <img class="w-100 opacity-7" src="/img/logos/gray-logos/logo-spotify.svg" alt="logo">
-          </div>
-          <div class="col-lg-2 col-md-4 col-6 mb-4">
-            <img class="w-100 opacity-7" src="/img/logos/gray-logos/logo-vodafone.svg" alt="logo">
-          </div>
+          
+       
+    
         </div>
         <div class="row justify-content-center text-center">
           <div class="col-md-3">
             <h1 class="text-gradient text-info" id="state1" countto="5234">5,234</h1>
-            <h5>Projects</h5>
+            <h5>Factibilidad</h5>
             <p>Of “high-performing” level are led by a certified project manager</p>
           </div>
           <div class="col-md-3">
@@ -206,15 +191,45 @@
             <p>That meets quality standards required by our users</p>
           </div>
           <div class="col-md-3">
-            <h1 class="text-gradient text-info"><span id="state3" countto="24">24</span>/7</h1>
-            <h5>Support</h5>
-            <p>Actively engage team members that finishes on time</p>
+            <h1 class="text-gradient text-info"><span id="state3" countto="24">80%</span></h1>
+            <h5>Sistema de riego</h5>
+            <p>de ahorro de agua</p>
           </div>
         </div>
       </div>
     </section>
    
   </div>
+  <footer id="footer" class="my-5 pt-5">
+       <section class="my-5 pt-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 m-auto">
+                <h4>Envia tus comentarios</h4>
+                <p class="mb-4">
+                  
+                </p>
+                <div class="row">
+                  <div class="col-8">
+                    <div class="input-group input-group-outline">
+                      <label class="form-label">Correo</label>
+                      <input type="text" class="form-control mb-sm-0">
+                    </div>
+                  </div>
+                  <div class="col-4 ps-0">
+                    <button type="button" class="btn bg-gradient-info mb-0 h-100 position-relative z-index-2">Comentarios</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5 ms-auto">
+                <div class="position-relative">
+                  <img class="max-width-50 w-100 position-relative z-index-2" src="/img/back-mini.png" alt="image">
+                </div>
+              </div>
+            </div>
+          </div>
+       </section>
+   </footer>
 </template>
 <script>
 export default {
